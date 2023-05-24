@@ -1,88 +1,62 @@
-*{
-    padding: 0;
-    margin: 0 ;
-    font-family: 'Poppins', sans-serif;
-}
 body{
-    background-image:  url(https://wallpaperaccess.com/full/2056374.jpg);
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
-   
-}
-nav{
-background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) ;
-height: 130px;
-width: 100%;
-display: flex;
-justify-content: space-around;
-align-items: center;
-}
-
-.image{
-    height: 100%;
-    display: flex;
-    padding-left: 4%;
-}
-.logo{
+    background-color: silver;
     color: white;
-    font-size:30px;
-    line-height: 100px;
-    font-weight: bold;
-    padding-right: 20%;
-    letter-spacing: 3px;
-
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.h-text{
- display: flex;
- height: 88%;
- align-items: center;
+h1{
+    background-color: #ffff;
+    background-color: hsla(0, 100%, 100%, 0.5);
+    color: black;
+    padding: inherit;
+    text-align: center;
 }
-.h-text h3{
-    font-size: 3.5em;
-    color: white;
-    letter-spacing: 3px;
-    padding-left: 2%;
-    padding-bottom: 1%;
-    padding-top: 5%;
-    background-color: rgba(182, 181, 179, 0.1);
-    transition: 0.5s;
+p{
+    padding: 5px;
+    margin: 0px;
 }
-.h-text h3:hover{
-    -webkit-text-stroke: 2px #fff;
-    color: transparent;
+p.zero{
+    background-color: rgb(238, 62, 128);
 }
-    
-.menu-bar a{
-    text-decoration: none;
-      color: white;
-      padding: 10px 20px;
+p.one{
+    background-color: rgb(244,90,139);
 }
-.menu-bar a:hover{
-    background: transparent;
-    border: 1px solid #fff;
+p.two{
+    background-color: rgb(243,106,152);
 }
-
-button{
-    width: 180px;
-    color: #000;
-    font-size: 14px;
-    padding: 12px 0;
-    background: #fff;
-    border: 0;
-    border-radius: 20px;
-    outline: none;
-    margin-bottom: 50%;
-    transform: translate(15% , -50%);
-    transition: 0.4s;
-
+p.three{
+    background-color: rgb(244,123,166);
 }
-button:hover{
-      background: transparent;
-      border: 1px solid #fff;
+p.four{
+    background-color: rgb(245,140,178);
 }
-
+p.five{
+    background-color: rgb(246,159,192);
+}
+p.six{
+    background-color: rgb(245,176,204);
+}
+p.seven{
+    background-color: rgb(0,187,136);
+}
+p.eight{
+    background-color: rgb(140,202,242);
+}
+p.nine{
+    background-color: rgb(114,193,240);
+}
+p.tenth{
+    background-color: rgb(84,182,237);
+}
+p.eleven{
+    background-color: rgb(48,170,233);
+}
+p.twelve{
+    background-color: rgb(0,160,230);
+}
+p.thirteen{
+    background-color: rgb(0,149,226);
+}
+p.fourteen{
+    background-color: rgb(0,136,221);
+}
